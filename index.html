@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieInfo</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
@@ -20,17 +21,18 @@
         </div>
     </nav>
 
-    <div class="container  ">
+    <div class="container d-flex justify-content-center">
         <div class="jumbotron">
             <h3 class="text-center">Search For Any Movie</h3>
-            <form id="searchForm">
+            <form id="searchForm" class="d-flex justify-content-center gap-3 ">
                 <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+                <button class="btn btn-outline-dark m-auto" type="submit">SEARCH</button>
             </form>
         </div>
     </div>
 
-    <div class="container">
-        <div id="movies" class="row my-2 d-flex justify-content-center align-content-center"></div>
+    <div class="container-lg my-3">
+        <div id="movies" class="row  d-flex justify-content-center align-content-center"></div>
     </div>
 
 

@@ -8,7 +8,7 @@ $(document).ready(() => {
 
 function getMovies(searchText) {
   axios
-    .get("http://www.omdbapi.com/?apikey=daf0c55b&s=" + searchText) 
+    .get("https://www.omdbapi.com/?apikey=daf0c55b&s=" + searchText) 
     .then((response) => {
     //   console.log(response);
       let movies = response.data.Search;
@@ -68,7 +68,7 @@ function getMovie() {
             <h3>Plot</h3>
             ${movie.Plot}
             <hr>
-            <a href="https://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
+            <a href="https://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-warning">View IMDB</a>
             <a href="index.html" class="btn btn-outline-dark ms-2">Go Back To Search</a>
           </div>
         </div>
