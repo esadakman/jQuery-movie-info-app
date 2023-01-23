@@ -11,28 +11,15 @@ body {
     aspect-ratio: 3/5;
 }
 
-
-
 /* @media(min-width:960px) {
     #movies .col-md-3 .well {
-        height: 550px;
-
+        height: 550px; 
     }
 
     #movies .col-md-3 img {
         height: 400px;
     }
 } */
-
-@media(min-width:960px) {
-    #movies .col-md-3 .well {
-        /* height: 550px;  */
-    }
-
-    /* #movies .col-md-3 img {
-        height: 400px;
-    } */
-}
 
 .github {
     width: 3rem;
